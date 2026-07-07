@@ -1,0 +1,15 @@
+Experiment 4
+Activity 1
+1. Every host on the same local network that is listening on the UDP port
+
+2. Broadcast sends to every host on the local network, Multicast sends only to hosts in a particular multicast group.
+Broadcast generates more traffic than Multicast
+Broadcast uses the 255.255.255.255 address while multicast uses a specified class D address(224.0.0.0 to 239.255.255.255)
+
+
+Activity 2:
+1. Encryption prevents unauthorized parties from eavesdropping onto the message transmitted,
+It helps maintain privacy on the network.
+
+2. All hosts needed to have the same encryption Key
+Ensuring messages are not modified during transmission
