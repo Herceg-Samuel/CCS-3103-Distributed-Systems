@@ -1,0 +1,29 @@
+{
+    "africa": {
+        "kenya": {
+            "nairobi": {
+                "server1": "192.168.1.2"
+            },
+            "mombasa": {
+                "server3": "192.168.1.4"
+            }
+        },
+        "uganda": {
+            "kampala": {
+                "server4": "192.168.2.1"
+            }
+        }
+    },
+    "europe": {
+        "germany": {
+            "berlin": {
+                "server5": "10.0.0.1"
+            }
+        },
+        "france": {
+            "paris": {
+                "server6": "10.0.1.1"
+            }
+        }
+    }
+}
