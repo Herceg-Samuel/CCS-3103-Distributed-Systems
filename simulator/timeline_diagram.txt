@@ -1,0 +1,21 @@
+Timeline Diagram
+================
+P1:
+  t=1 internal :: start local computation
+  t=2 message_send :: send heartbeat
+  t=3 internal :: finalize state
+
+P2:
+  t=1 internal :: prepare to communicate
+  t=3 message_receive :: receive heartbeat
+  t=4 internal :: process received message
+  t=5 message_send :: forward update
+
+P3:
+  t=1 internal :: idle waiting
+  t=2 internal :: observe state change
+  t=6 message_receive :: receive update
+
+Cross-process view:
+  P1 -> P2: heartbeat message at t=2
+  P2 -> P3: update message at t=6

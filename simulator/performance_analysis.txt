@@ -1,0 +1,6 @@
+Performance Analysis
+====================
+- Total events: 10
+- Number of processes: 3
+- Message exchanges: 2
+- Average event timestamp: 2.80

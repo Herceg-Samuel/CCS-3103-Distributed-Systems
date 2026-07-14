@@ -1,0 +1,12 @@
+Event Log
+========
+1 | P1 | internal | start local computation
+1 | P2 | internal | prepare to communicate
+1 | P3 | internal | idle waiting
+2 | P1 | message_send | send heartbeat
+2 | P3 | internal | observe state change
+3 | P1 | internal | finalize state
+3 | P2 | message_receive | receive heartbeat
+4 | P2 | internal | process received message
+5 | P2 | message_send | forward update
+6 | P3 | message_receive | receive update

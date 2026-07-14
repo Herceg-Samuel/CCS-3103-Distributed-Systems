@@ -1,0 +1,3 @@
+Reflection on Lamport Clock Limitations
+======================================
+Lamport clocks provide a simple partial ordering for distributed events, but they do not capture the full causal relationship between events in all cases. They also cannot distinguish concurrent events that share the same timestamp, and they do not provide a true global view of wall-clock time.
